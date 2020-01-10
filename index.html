@@ -30,32 +30,14 @@
 
     <section class="search-box">
     
-      <div id='marca'>
-        <input type="search" placeholder="Marca">
-      </div>
-
-
-      <div id='modelo'>
-        <input type="search" placeholder="Modelo">
-      </div>
-
-
-      <div id='ano'>
-        <input type="search" placeholder="Ano">
-      </div>
-
-
-      <div id='botao'>
-        <button>Consultar Preço</button>
-      <div>
-
+      <select name="marcas" id="marcas" onchange="mostrarModelos()">
+              
+      
+   
     </section>
 
     
-    
-
-    
-    <ul id='resultados'>
+    <ul id='modelo'>
 
         
 
@@ -65,7 +47,7 @@
     </div>
 
   </contenedor>
-  <script src="script.js">
+  <script src="app.js">
   </script>
 </body>
 </html>
@@ -73,10 +55,3 @@
 
 
 
-<footer class='footer'>
-    
-    <img src='https://www.volanty.com/_nuxt/img/12848fa.svg'>
-    <p> Copyright &copy Direitos Reservados Volanty 2020 </p>
-        
-
-</footer>

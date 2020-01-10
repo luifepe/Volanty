@@ -103,7 +103,7 @@
         flex-direction: column;
         flex-grow: 3;
         align-content: space-between;
-        height: 20%;
+        height: 10%;
         padding: 5%;
         
       }
@@ -148,9 +148,18 @@
           color: white;
           background-color: teal;
           width: 100%;
+          position: absolute;
           
       }
 
+
+
+ul{
+
+    align-content: center;
+    margin-top: 5px;
+    list-style: none;
+    font-family: 'Monoton', cursive;
 }
 
  
